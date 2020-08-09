@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView homerImageView = (ImageView) findViewById(R.id.homerImageView);
 
-       bartImageView.animate().translationXBy(-2000).setDuration(2000);
+       bartImageView.animate().rotation(180).setDuration(2000);
     }
 
     @Override
